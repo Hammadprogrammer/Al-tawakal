@@ -6,7 +6,6 @@ import { ToastProvider } from '@/context/ToastContext';
 import { CartDrawer } from '@/components/CartDrawer';
 import { StickyMobileCart } from '@/components/StickyMobileCart';
 import { PWARegister } from '@/components/PWARegister';
-import { PWAInstallPrompt } from '@/components/PWAInstallPrompt';
 import { OfflineBanner } from '@/components/OfflineBanner';
 
 const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://tawakalbbq.com';
@@ -200,7 +199,6 @@ export default function RootLayout({
             {children}
             <CartDrawer />
             <StickyMobileCart />
-            <PWAInstallPrompt />
           </CartProvider>
         </ToastProvider>
       </body>
