@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "al-tawakal",
+  "compatibility_date": "2026-08-28",
+  // Static site: `next build` exports plain HTML/CSS/JS into ./out
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
