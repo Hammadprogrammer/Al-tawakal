@@ -183,14 +183,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_jxquHMZWeWiZpdL0xRQJQZrV" defer />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-        />
-        <script
-          src="https://cdn.zanderio.ai/widget/loader.js"
-          data-id="wdg_aJ7iBqCBGXJHb9GvId7SmmJo"
-          defer
         />
       </head>
       <body
