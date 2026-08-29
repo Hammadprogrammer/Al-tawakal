@@ -187,6 +187,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
         />
+        <script
+          src="https://cdn.zanderio.ai/widget/loader.js"
+          data-id="wdg_aJ7iBqCBGXJHb9GvId7SmmJo"
+          defer
+        />
       </head>
       <body
         className="bg-[#11100E] text-[#F4EBDD] font-sans antialiased selection:bg-[#C83B22] selection:text-white"
